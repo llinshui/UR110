@@ -82,6 +82,7 @@
     <Compile Include="Assets\UR10\Scripts\MainScene\MissionListTest\IOMission.cs" />
     <Compile Include="Assets\UR10\Scripts\MainScene\MissionListTest\Mission.cs" />
     <Compile Include="Assets\UR10\Scripts\MainScene\SceneChange.cs" />
+    <Compile Include="Assets\UR10\Scripts\MainScene\UR5MissionControl.cs" />
     <Compile Include="Assets\UR10\Scripts\MainScene\URMissionControl.cs" />
     <Compile Include="Assets\UR10\Scripts\MainScene\URMissionControl1.cs" />
     <Compile Include="Assets\UR10\Scripts\MainScene\XMLLoad.cs" />

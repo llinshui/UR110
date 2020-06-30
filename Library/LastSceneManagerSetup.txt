@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/UR10/Scenes/GxkTestScene.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0

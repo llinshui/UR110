@@ -58,10 +58,10 @@ public class URMissionControl : MonoBehaviour//左
             //URJoints[3].transform.localEulerAngles = new Vector3(URJoints[3].transform.localEulerAngles.x, URJoints[3].transform.localEulerAngles.y, current_Pos[3]+90);
             //URJoints[4].transform.localEulerAngles = new Vector3(URJoints[4].transform.localEulerAngles.x, -current_Pos[4], URJoints[4].transform.localEulerAngles.z);
             //URJoints[5].transform.localEulerAngles = new Vector3(URJoints[5].transform.localEulerAngles.x, URJoints[5].transform.localEulerAngles.y, current_Pos[5]);
-            //for (int i = 0; i < 6; i++)
-            //{
-            //    txPos[i].text = temp_Pos[i];
-            //}
+            for (int i = 0; i < 6; i++)
+            {
+                txPos[i].text = temp_Pos[i];
+            }
             //print("连接成功");
 
             status.color = Color.green;

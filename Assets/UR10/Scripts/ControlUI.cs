@@ -23,9 +23,9 @@ public class ControlUI : MonoBehaviour
         controlModes[2] = this.transform.Find("离线任务-观察臂").gameObject;
         controlModes[3] = this.transform.Find("单轴点动-主").gameObject;
         controlModes[4] = this.transform.Find("单轴点动-从").gameObject;
-        controlModes[5] = this.transform.Find("末端联动-主").gameObject;
-        controlModes[6] = this.transform.Find("末端联动-从").gameObject;
-        controlModes[7] = this.transform.Find("单轴点动-观察臂").gameObject;
+        controlModes[5] = this.transform.Find("单轴点动-观察臂").gameObject;
+        controlModes[6] = this.transform.Find("末端联动-主").gameObject;
+        controlModes[7] = this.transform.Find("末端联动-从").gameObject;
         controlModes[8] = this.transform.Find("末端联动-观察臂").gameObject;
         activeMode = null;
         activeRobot = null;

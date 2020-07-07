@@ -47,25 +47,25 @@ public class URMissionControl1 : MonoBehaviour//右
     {
         if (URController.isConnect)
         {
-            //status.color = Color.green;
-            //URJoints[0].transform.localEulerAngles = new Vector3(URJoints[0].transform.localEulerAngles.x, -current_Pos[0], URJoints[0].transform.localEulerAngles.z);
-            //URJoints[1].transform.localEulerAngles = new Vector3(URJoints[1].transform.localEulerAngles.x, URJoints[1].transform.localEulerAngles.y, current_Pos[1] + 90);
-            //URJoints[2].transform.localEulerAngles = new Vector3(URJoints[2].transform.localEulerAngles.x, URJoints[2].transform.localEulerAngles.y, current_Pos[2]);
-            //URJoints[3].transform.localEulerAngles = new Vector3(URJoints[3].transform.localEulerAngles.x, URJoints[3].transform.localEulerAngles.y, current_Pos[3] + 90);
-            //URJoints[4].transform.localEulerAngles = new Vector3(URJoints[4].transform.localEulerAngles.x, -current_Pos[4], URJoints[4].transform.localEulerAngles.z);
-            //URJoints[5].transform.localEulerAngles = new Vector3(URJoints[5].transform.localEulerAngles.x, URJoints[5].transform.localEulerAngles.y, current_Pos[5]);
+            status.color = Color.green;
+            URJoints[0].transform.localEulerAngles = new Vector3(URJoints[0].transform.localEulerAngles.x, -current_Pos[0], URJoints[0].transform.localEulerAngles.z);
+            URJoints[1].transform.localEulerAngles = new Vector3(URJoints[1].transform.localEulerAngles.x, URJoints[1].transform.localEulerAngles.y, current_Pos[1] + 90);
+            URJoints[2].transform.localEulerAngles = new Vector3(URJoints[2].transform.localEulerAngles.x, URJoints[2].transform.localEulerAngles.y, current_Pos[2]);
+            URJoints[3].transform.localEulerAngles = new Vector3(URJoints[3].transform.localEulerAngles.x, URJoints[3].transform.localEulerAngles.y, current_Pos[3] + 90);
+            URJoints[4].transform.localEulerAngles = new Vector3(URJoints[4].transform.localEulerAngles.x, -current_Pos[4], URJoints[4].transform.localEulerAngles.z);
+            URJoints[5].transform.localEulerAngles = new Vector3(URJoints[5].transform.localEulerAngles.x, URJoints[5].transform.localEulerAngles.y, current_Pos[5]);
             for (int i = 0; i < 6; i++)
             {
                 txPos[i].text = temp_Pos[i];
             }
 
-            status.color = Color.green;
-            URJoints[0].transform.localEulerAngles = new Vector3(URJoints[0].transform.localEulerAngles.x, -current_Pos[0], URJoints[0].transform.localEulerAngles.z);
-            URJoints[1].transform.localEulerAngles = new Vector3(URJoints[1].transform.localEulerAngles.x, -(current_Pos[1] + 90), URJoints[1].transform.localEulerAngles.z);
-            URJoints[2].transform.localEulerAngles = new Vector3(URJoints[2].transform.localEulerAngles.x, -current_Pos[2], URJoints[2].transform.localEulerAngles.z);
-            URJoints[3].transform.localEulerAngles = new Vector3(URJoints[3].transform.localEulerAngles.x, -current_Pos[3] + 90, URJoints[3].transform.localEulerAngles.z);
-            URJoints[4].transform.localEulerAngles = new Vector3(URJoints[4].transform.localEulerAngles.x, -current_Pos[4] - 180, URJoints[4].transform.localEulerAngles.z);
-            URJoints[5].transform.localEulerAngles = new Vector3(URJoints[5].transform.localEulerAngles.x, current_Pos[5], URJoints[5].transform.localEulerAngles.z);
+            //status.color = Color.green;
+            //URJoints[0].transform.localEulerAngles = new Vector3(URJoints[0].transform.localEulerAngles.x, -current_Pos[0], URJoints[0].transform.localEulerAngles.z);
+            //URJoints[1].transform.localEulerAngles = new Vector3(URJoints[1].transform.localEulerAngles.x, -(current_Pos[1] + 90), URJoints[1].transform.localEulerAngles.z);
+            //URJoints[2].transform.localEulerAngles = new Vector3(URJoints[2].transform.localEulerAngles.x, -current_Pos[2], URJoints[2].transform.localEulerAngles.z);
+            //URJoints[3].transform.localEulerAngles = new Vector3(URJoints[3].transform.localEulerAngles.x, -current_Pos[3] + 90, URJoints[3].transform.localEulerAngles.z);
+            //URJoints[4].transform.localEulerAngles = new Vector3(URJoints[4].transform.localEulerAngles.x, -current_Pos[4] - 180, URJoints[4].transform.localEulerAngles.z);
+            //URJoints[5].transform.localEulerAngles = new Vector3(URJoints[5].transform.localEulerAngles.x, current_Pos[5], URJoints[5].transform.localEulerAngles.z);
         }
         else
             status.color = Color.red;
@@ -123,6 +123,9 @@ public class URMissionControl1 : MonoBehaviour//右
             case 3:
                 fileName = "jiaxian.xml";
                 break;
+            case 4:
+                fileName = "jianxian.xml";
+                break;
             default:
                 fileName = "init.xml";
                 break;
@@ -143,6 +146,8 @@ public class URMissionControl1 : MonoBehaviour//右
             //print(CommandScripts.MissionDo(mission_List[index], AccelerationRate, SpeedRate));
             if (mission_List[index].IOindex == -1)
                 URController.Send_command(CommandScripts.MissionDo(mission_List[index], AccelerationRate, SpeedRate));
+            else if (mission_List[index].IOindex == -2)//直线运动命令
+                URController.Send_command(CommandScripts.MissionDodirect(mission_List[index], AccelerationRate, SpeedRate));
             else if(mission_List[index].IOindex == 2)
             {
                 StartCoroutine(Ning());

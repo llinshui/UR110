@@ -33,6 +33,9 @@ public class OffLine : MonoBehaviour
             case 3:
                 fileName = "jiaxian.xml";
                 break;
+            case 4:
+                fileName = "jianxian.xml";
+                break;
             default:
                 fileName = "init.xml";
                 break;
@@ -76,6 +79,10 @@ public class OffLine : MonoBehaviour
                     tools[0].SetActive(true);
                     toolsJia[0].SetActive(false);
                 }
+                else if (fileName == "jianxian.xml")
+                {
+
+                }
             }
             else if (mission_List[index].IOindex == 1)//关工具
             {
@@ -94,6 +101,10 @@ public class OffLine : MonoBehaviour
                     tools[0].SetActive(false);
                     toolsJia[0].SetActive(false);
                     toolsJia[1].SetActive(true);
+                }
+                else if (fileName == "jianxian.xml")
+                {
+                   
                 }
             }
 

@@ -3,121 +3,409 @@
  <Mission_1>
     <Log>mission1</Log>
     <AxisAngles>
-      <Axis_0_angle>-60</Axis_0_angle>
-      <Axis_1_angle>-61.52</Axis_1_angle>
-      <Axis_2_angle>-101.93</Axis_2_angle>
-      <Axis_3_angle>-71</Axis_3_angle>
-      <Axis_4_angle>-1.5</Axis_4_angle>
-      <Axis_5_angle>53.13</Axis_5_angle>
+      <Axis_0_angle>-89.12</Axis_0_angle>
+      <Axis_1_angle>3.79</Axis_1_angle>
+      <Axis_2_angle>-163.68</Axis_2_angle>
+      <Axis_3_angle>-89.88</Axis_3_angle>
+      <Axis_4_angle>0</Axis_4_angle>
+      <Axis_5_angle>-0.06</Axis_5_angle>
     </AxisAngles>
     <IO>-1</IO>
   </Mission_1>
- <Mission_1>
-    <Log>mission1</Log>
-    <AxisAngles>
-      <Axis_0_angle>-90</Axis_0_angle>
-      <Axis_1_angle>-61.52</Axis_1_angle>
-      <Axis_2_angle>-101.93</Axis_2_angle>
-      <Axis_3_angle>-71</Axis_3_angle>
-      <Axis_4_angle>-1.5</Axis_4_angle>
-      <Axis_5_angle>53.13</Axis_5_angle>
-    </AxisAngles>
-    <IO>-1</IO>
-  </Mission_1>
-  <Mission_2>
+<Mission_2>
     <Log>mission2</Log>
     <AxisAngles>
-      <Axis_0_angle>-89.97</Axis_0_angle>
-      <Axis_1_angle>-71.13</Axis_1_angle>
-      <Axis_2_angle>-96.08</Axis_2_angle>
-      <Axis_3_angle>-69.62</Axis_3_angle>
-      <Axis_4_angle>-1.5</Axis_4_angle>
-      <Axis_5_angle>55.60</Axis_5_angle>
+      <Axis_0_angle>-184.93</Axis_0_angle>
+      <Axis_1_angle>-25.06</Axis_1_angle>
+      <Axis_2_angle>-163.12</Axis_2_angle>
+      <Axis_3_angle>-89.88</Axis_3_angle>
+      <Axis_4_angle>0</Axis_4_angle>
+      <Axis_5_angle>-0.07</Axis_5_angle>
     </AxisAngles>
     <IO>-1</IO>
   </Mission_2>
-  <Mission_3>
+<Mission_3>
     <Log>mission3</Log>
-      <AxisAngles>
-      <Axis_0_angle>-90</Axis_0_angle>
-      <Axis_1_angle>-70.75</Axis_1_angle>
-      <Axis_2_angle>-96.45</Axis_2_angle>
-      <Axis_3_angle>-69.42</Axis_3_angle>
-      <Axis_4_angle>-1.5</Axis_4_angle>
-      <Axis_5_angle>55.30</Axis_5_angle>
+    <AxisAngles>
+      <Axis_0_angle>-184.92</Axis_0_angle>
+      <Axis_1_angle>-72.94</Axis_1_angle>
+      <Axis_2_angle>-140.92</Axis_2_angle>
+      <Axis_3_angle>-58.07</Axis_3_angle>
+      <Axis_4_angle>90.66</Axis_4_angle>
+      <Axis_5_angle>-0.07</Axis_5_angle>
     </AxisAngles>
-    <IO>0</IO>
+    <IO>-1</IO>
   </Mission_3>
 <Mission_4>
     <Log>mission4</Log>
     <AxisAngles>
-      <Axis_0_angle>-89.97</Axis_0_angle>
-      <Axis_1_angle>-73.54</Axis_1_angle>
-      <Axis_2_angle>-85.38</Axis_2_angle>
-      <Axis_3_angle>-77.42</Axis_3_angle>
-      <Axis_4_angle>-1.52</Axis_4_angle>
-      <Axis_5_angle>55.12</Axis_5_angle>
+      <Axis_0_angle>-121.87</Axis_0_angle>
+      <Axis_1_angle>-84.02</Axis_1_angle>
+      <Axis_2_angle>-156.75</Axis_2_angle>
+      <Axis_3_angle>-29.53</Axis_3_angle>
+      <Axis_4_angle>91.84</Axis_4_angle>
+      <Axis_5_angle>62.92</Axis_5_angle>
     </AxisAngles>
     <IO>-1</IO>
   </Mission_4>
 <Mission_5>
-    <Log>mission5</Log>
+    <Log>infront</Log>
     <AxisAngles>
-      <Axis_0_angle>-103.92</Axis_0_angle>
-      <Axis_1_angle>-129.75</Axis_1_angle>
-      <Axis_2_angle>79.78</Axis_2_angle>
-      <Axis_3_angle>-128.49</Axis_3_angle>
-      <Axis_4_angle>-77</Axis_4_angle>
-      <Axis_5_angle>0</Axis_5_angle>
+      <Axis_0_angle>-101.85</Axis_0_angle>
+      <Axis_1_angle>-85.01</Axis_1_angle>
+      <Axis_2_angle>-160.37</Axis_2_angle>
+      <Axis_3_angle>-24.45</Axis_3_angle>
+      <Axis_4_angle>89.60</Axis_4_angle>
+      <Axis_5_angle>-101.99</Axis_5_angle>
     </AxisAngles>
     <IO>-1</IO>
   </Mission_5>
 <Mission_6>
-    <Log>mission6</Log>
+    <Log>in</Log>
     <AxisAngles>
-      <Axis_0_angle>-135.14</Axis_0_angle>
-      <Axis_1_angle>-138.06</Axis_1_angle>
-      <Axis_2_angle>90.17</Axis_2_angle>
-      <Axis_3_angle>-129.96</Axis_3_angle>
-      <Axis_4_angle>-45.44</Axis_4_angle>
-      <Axis_5_angle>-4.17</Axis_5_angle>
+      <Axis_0_angle>-101.84</Axis_0_angle>
+      <Axis_1_angle>-95.85</Axis_1_angle>
+      <Axis_2_angle>-161.78</Axis_2_angle>
+      <Axis_3_angle>-12.19</Axis_3_angle>
+      <Axis_4_angle>89.59</Axis_4_angle>
+      <Axis_5_angle>-102</Axis_5_angle>
     </AxisAngles>
     <IO>-1</IO>
+  </Mission_6>
+<Mission_6>
+    <Log>in0</Log>
+    <AxisAngles>
+      <Axis_0_angle>-101.84</Axis_0_angle>
+      <Axis_1_angle>-95.85</Axis_1_angle>
+      <Axis_2_angle>-161.78</Axis_2_angle>
+      <Axis_3_angle>-12.19</Axis_3_angle>
+      <Axis_4_angle>89.59</Axis_4_angle>
+      <Axis_5_angle>-102</Axis_5_angle>
+    </AxisAngles>
+    <IO>0</IO>
+  </Mission_6>
+<Mission_6>
+    <Log>in5</Log>
+    <AxisAngles>
+      <Axis_0_angle>-101.84</Axis_0_angle>
+      <Axis_1_angle>-95.85</Axis_1_angle>
+      <Axis_2_angle>-161.78</Axis_2_angle>
+      <Axis_3_angle>-12.19</Axis_3_angle>
+      <Axis_4_angle>89.59</Axis_4_angle>
+      <Axis_5_angle>-102</Axis_5_angle>
+    </AxisAngles>
+    <IO>5</IO>
   </Mission_6>
 <Mission_7>
     <Log>mission7</Log>
     <AxisAngles>
-      <Axis_0_angle>-135.14</Axis_0_angle>
-      <Axis_1_angle>-138.06</Axis_1_angle>
-      <Axis_2_angle>90.17</Axis_2_angle>
-      <Axis_3_angle>-129.96</Axis_3_angle>
-      <Axis_4_angle>-45.44</Axis_4_angle>
-      <Axis_5_angle>-4.17</Axis_5_angle>
+      <Axis_0_angle>-101.85</Axis_0_angle>
+      <Axis_1_angle>-89.09</Axis_1_angle>
+      <Axis_2_angle>-161.01</Axis_2_angle>
+      <Axis_3_angle>-19.72</Axis_3_angle>
+      <Axis_4_angle>89.59</Axis_4_angle>
+      <Axis_5_angle>-101.99</Axis_5_angle>
     </AxisAngles>
-    <IO>1</IO>
+    <IO>-1</IO>
   </Mission_7>
-  <Mission_8>
+<Mission_8>
     <Log>mission8</Log>
     <AxisAngles>
-      <Axis_0_angle>-93.35</Axis_0_angle>
-      <Axis_1_angle>-131.51</Axis_1_angle>
-      <Axis_2_angle>86.04</Axis_2_angle>
-      <Axis_3_angle>-132.94</Axis_3_angle>
-      <Axis_4_angle>-87.22</Axis_4_angle>
-      <Axis_5_angle>-2.74</Axis_5_angle>
+      <Axis_0_angle>-98.08</Axis_0_angle>
+      <Axis_1_angle>-79.93</Axis_1_angle>
+      <Axis_2_angle>-142.54</Axis_2_angle>
+      <Axis_3_angle>-47.37</Axis_3_angle>
+      <Axis_4_angle>89.57</Axis_4_angle>
+      <Axis_5_angle>-98.16</Axis_5_angle>
     </AxisAngles>
     <IO>-1</IO>
   </Mission_8>
- <Mission_9>
+<Mission_9>
     <Log>mission9</Log>
     <AxisAngles>
-      <Axis_0_angle>0</Axis_0_angle>
-      <Axis_1_angle>-90</Axis_1_angle>
-      <Axis_2_angle>0</Axis_2_angle>
-      <Axis_3_angle>-90</Axis_3_angle>
-      <Axis_4_angle>0</Axis_4_angle>
-      <Axis_5_angle>0</Axis_5_angle>
+      <Axis_0_angle>-92.38</Axis_0_angle>
+      <Axis_1_angle>-83.95</Axis_1_angle>
+      <Axis_2_angle>-161.67</Axis_2_angle>
+      <Axis_3_angle>37.43</Axis_3_angle>
+      <Axis_4_angle>89.57</Axis_4_angle>
+      <Axis_5_angle>-98.16</Axis_5_angle>
     </AxisAngles>
     <IO>-1</IO>
   </Mission_9>
+<Mission_9>
+    <Log>change6</Log>
+    <AxisAngles>
+      <Axis_0_angle>-92.38</Axis_0_angle>
+      <Axis_1_angle>-83.95</Axis_1_angle>
+      <Axis_2_angle>-161.67</Axis_2_angle>
+      <Axis_3_angle>37.43</Axis_3_angle>
+      <Axis_4_angle>89.57</Axis_4_angle>
+      <Axis_5_angle>-98.16</Axis_5_angle>
+    </AxisAngles>
+    <IO>-1</IO>
+  </Mission_9>
+<Mission_10>
+    <Log>mission10</Log>
+    <AxisAngles>
+      <Axis_0_angle>-86.94</Axis_0_angle>
+      <Axis_1_angle>-87.78</Axis_1_angle>
+      <Axis_2_angle>-129.33</Axis_2_angle>
+      <Axis_3_angle>118.35</Axis_3_angle>
+      <Axis_4_angle>89.58</Axis_4_angle>
+      <Axis_5_angle>-98.16</Axis_5_angle>
+    </AxisAngles>
+    <IO>-1</IO>
+  </Mission_10>
+<Mission_11>
+    <Log>mission11</Log>
+    <AxisAngles>
+      <Axis_0_angle>-87.92</Axis_0_angle>
+      <Axis_1_angle>-91.13</Axis_1_angle>
+      <Axis_2_angle>-99.31</Axis_2_angle>
+      <Axis_3_angle>100.56</Axis_3_angle>
+      <Axis_4_angle>89.63</Axis_4_angle>
+      <Axis_5_angle>-97.25</Axis_5_angle>
+    </AxisAngles>
+    <IO>-1</IO>
+  </Mission_11>
+<Mission_12>
+    <Log>infront</Log>
+    <AxisAngles>
+      <Axis_0_angle>-87.47</Axis_0_angle>
+      <Axis_1_angle>-83.60</Axis_1_angle>
+      <Axis_2_angle>-107.53</Axis_2_angle>
+      <Axis_3_angle>101.26</Axis_3_angle>
+      <Axis_4_angle>89.61</Axis_4_angle>
+      <Axis_5_angle>-97.70</Axis_5_angle>
+    </AxisAngles>
+    <IO>-1</IO>
+  </Mission_12>
+<Mission_13>
+    <Log>in</Log>
+    <AxisAngles>
+      <Axis_0_angle>-87.04</Axis_0_angle>
+      <Axis_1_angle>-79.44</Axis_1_angle>
+      <Axis_2_angle>-115.85</Axis_2_angle>
+      <Axis_3_angle>105.40</Axis_3_angle>
+      <Axis_4_angle>89.61</Axis_4_angle>
+      <Axis_5_angle>-98.11</Axis_5_angle>
+    </AxisAngles>
+    <IO>-1</IO>
+  </Mission_13>
+<Mission_13>
+    <Log>io2</Log>
+    <AxisAngles>
+      <Axis_0_angle>-87.04</Axis_0_angle>
+      <Axis_1_angle>-79.44</Axis_1_angle>
+      <Axis_2_angle>-115.85</Axis_2_angle>
+      <Axis_3_angle>105.40</Axis_3_angle>
+      <Axis_4_angle>89.61</Axis_4_angle>
+      <Axis_5_angle>-98.11</Axis_5_angle>
+    </AxisAngles>
+    <IO>2</IO>
+  </Mission_13>
+<Mission_13>
+    <Log>io3</Log>
+    <AxisAngles>
+      <Axis_0_angle>-87.04</Axis_0_angle>
+      <Axis_1_angle>-79.44</Axis_1_angle>
+      <Axis_2_angle>-115.85</Axis_2_angle>
+      <Axis_3_angle>105.40</Axis_3_angle>
+      <Axis_4_angle>89.61</Axis_4_angle>
+      <Axis_5_angle>-98.11</Axis_5_angle>
+    </AxisAngles>
+    <IO>3</IO>
+  </Mission_13>
+<Mission_13>
+    <Log>io4</Log>
+    <AxisAngles>
+      <Axis_0_angle>-87.04</Axis_0_angle>
+      <Axis_1_angle>-79.44</Axis_1_angle>
+      <Axis_2_angle>-115.85</Axis_2_angle>
+      <Axis_3_angle>105.40</Axis_3_angle>
+      <Axis_4_angle>89.61</Axis_4_angle>
+      <Axis_5_angle>-98.11</Axis_5_angle>
+    </AxisAngles>
+    <IO>4</IO>
+  </Mission_13>
+<Mission_13>
+    <Log>change3</Log>
+    <AxisAngles>
+      <Axis_0_angle>-87.04</Axis_0_angle>
+      <Axis_1_angle>-79.44</Axis_1_angle>
+      <Axis_2_angle>-115.85</Axis_2_angle>
+      <Axis_3_angle>105.40</Axis_3_angle>
+      <Axis_4_angle>89.61</Axis_4_angle>
+      <Axis_5_angle>-98.11</Axis_5_angle>
+    </AxisAngles>
+    <IO>-1</IO>
+  </Mission_13>
+<Mission_14>
+    <Log>outfront</Log>
+    <AxisAngles>
+      <Axis_0_angle>-87.03</Axis_0_angle>
+      <Axis_1_angle>-79.95</Axis_1_angle>
+      <Axis_2_angle>-117.26</Axis_2_angle>
+      <Axis_3_angle>107.32</Axis_3_angle>
+      <Axis_4_angle>89.61</Axis_4_angle>
+      <Axis_5_angle>-98.11</Axis_5_angle>
+    </AxisAngles>
+    <IO>-1</IO>
+  </Mission_14>
+<Mission_15>
+    <Log>out</Log>
+    <AxisAngles>
+      <Axis_0_angle>-87.91</Axis_0_angle>
+      <Axis_1_angle>-92.82</Axis_1_angle>
+      <Axis_2_angle>-105.29</Axis_2_angle>
+      <Axis_3_angle>108.21</Axis_3_angle>
+      <Axis_4_angle>89.64</Axis_4_angle>
+      <Axis_5_angle>-97.25</Axis_5_angle>
+    </AxisAngles>
+    <IO>-1</IO>
+  </Mission_15>
+<Mission_15>
+    <Log>io5</Log>
+    <AxisAngles>
+      <Axis_0_angle>-87.91</Axis_0_angle>
+      <Axis_1_angle>-92.82</Axis_1_angle>
+      <Axis_2_angle>-105.29</Axis_2_angle>
+      <Axis_3_angle>108.21</Axis_3_angle>
+      <Axis_4_angle>89.64</Axis_4_angle>
+      <Axis_5_angle>-97.25</Axis_5_angle>
+    </AxisAngles>
+    <IO>5</IO>
+  </Mission_15>
+<Mission_10>
+    <Log>mission10</Log>
+    <AxisAngles>
+      <Axis_0_angle>-86.94</Axis_0_angle>
+      <Axis_1_angle>-87.78</Axis_1_angle>
+      <Axis_2_angle>-129.33</Axis_2_angle>
+      <Axis_3_angle>118.35</Axis_3_angle>
+      <Axis_4_angle>89.58</Axis_4_angle>
+      <Axis_5_angle>-98.16</Axis_5_angle>
+    </AxisAngles>
+    <IO>-1</IO>
+  </Mission_10>
+<Mission_9>
+    <Log>mission9</Log>
+    <AxisAngles>
+      <Axis_0_angle>-92.38</Axis_0_angle>
+      <Axis_1_angle>-83.95</Axis_1_angle>
+      <Axis_2_angle>-161.67</Axis_2_angle>
+      <Axis_3_angle>37.43</Axis_3_angle>
+      <Axis_4_angle>89.57</Axis_4_angle>
+      <Axis_5_angle>-98.16</Axis_5_angle>
+    </AxisAngles>
+    <IO>-1</IO>
+  </Mission_9>
+<Mission_8>
+    <Log>mission8</Log>
+    <AxisAngles>
+      <Axis_0_angle>-98.08</Axis_0_angle>
+      <Axis_1_angle>-79.93</Axis_1_angle>
+      <Axis_2_angle>-142.54</Axis_2_angle>
+      <Axis_3_angle>-47.37</Axis_3_angle>
+      <Axis_4_angle>89.57</Axis_4_angle>
+      <Axis_5_angle>-98.16</Axis_5_angle>
+    </AxisAngles>
+    <IO>-1</IO>
+  </Mission_8>
+<Mission_7>
+    <Log>mission7</Log>
+    <AxisAngles>
+      <Axis_0_angle>-101.85</Axis_0_angle>
+      <Axis_1_angle>-89.09</Axis_1_angle>
+      <Axis_2_angle>-161.01</Axis_2_angle>
+      <Axis_3_angle>-19.72</Axis_3_angle>
+      <Axis_4_angle>89.59</Axis_4_angle>
+      <Axis_5_angle>-101.99</Axis_5_angle>
+    </AxisAngles>
+    <IO>-1</IO>
+  </Mission_7>
+<Mission_6>
+    <Log>in</Log>
+    <AxisAngles>
+      <Axis_0_angle>-101.84</Axis_0_angle>
+      <Axis_1_angle>-95.85</Axis_1_angle>
+      <Axis_2_angle>-161.78</Axis_2_angle>
+      <Axis_3_angle>-12.19</Axis_3_angle>
+      <Axis_4_angle>89.59</Axis_4_angle>
+      <Axis_5_angle>-102</Axis_5_angle>
+    </AxisAngles>
+    <IO>-1</IO>
+  </Mission_6>
+<Mission_6>
+    <Log>in0</Log>
+    <AxisAngles>
+      <Axis_0_angle>-101.84</Axis_0_angle>
+      <Axis_1_angle>-95.85</Axis_1_angle>
+      <Axis_2_angle>-161.78</Axis_2_angle>
+      <Axis_3_angle>-12.19</Axis_3_angle>
+      <Axis_4_angle>89.59</Axis_4_angle>
+      <Axis_5_angle>-102</Axis_5_angle>
+    </AxisAngles>
+    <IO>1</IO>
+  </Mission_6>
+<Mission_5>
+    <Log>infront</Log>
+    <AxisAngles>
+      <Axis_0_angle>-101.85</Axis_0_angle>
+      <Axis_1_angle>-85.01</Axis_1_angle>
+      <Axis_2_angle>-160.37</Axis_2_angle>
+      <Axis_3_angle>-24.45</Axis_3_angle>
+      <Axis_4_angle>89.60</Axis_4_angle>
+      <Axis_5_angle>-101.99</Axis_5_angle>
+    </AxisAngles>
+    <IO>-1</IO>
+  </Mission_5>
+<Mission_4>
+    <Log>mission4</Log>
+    <AxisAngles>
+      <Axis_0_angle>-121.87</Axis_0_angle>
+      <Axis_1_angle>-84.02</Axis_1_angle>
+      <Axis_2_angle>-156.75</Axis_2_angle>
+      <Axis_3_angle>-29.53</Axis_3_angle>
+      <Axis_4_angle>91.84</Axis_4_angle>
+      <Axis_5_angle>62.92</Axis_5_angle>
+    </AxisAngles>
+    <IO>-1</IO>
+  </Mission_4>
+<Mission_3>
+    <Log>mission3</Log>
+    <AxisAngles>
+      <Axis_0_angle>-184.92</Axis_0_angle>
+      <Axis_1_angle>-72.94</Axis_1_angle>
+      <Axis_2_angle>-140.92</Axis_2_angle>
+      <Axis_3_angle>-58.07</Axis_3_angle>
+      <Axis_4_angle>90.66</Axis_4_angle>
+      <Axis_5_angle>-0.07</Axis_5_angle>
+    </AxisAngles>
+    <IO>-1</IO>
+  </Mission_3>
+<Mission_2>
+    <Log>mission2</Log>
+    <AxisAngles>
+      <Axis_0_angle>-184.93</Axis_0_angle>
+      <Axis_1_angle>-25.06</Axis_1_angle>
+      <Axis_2_angle>-163.12</Axis_2_angle>
+      <Axis_3_angle>-89.88</Axis_3_angle>
+      <Axis_4_angle>0</Axis_4_angle>
+      <Axis_5_angle>-0.07</Axis_5_angle>
+    </AxisAngles>
+    <IO>-1</IO>
+  </Mission_2>
+  <Mission_1>
+    <Log>mission1</Log>
+    <AxisAngles>
+      <Axis_0_angle>-89.12</Axis_0_angle>
+      <Axis_1_angle>3.79</Axis_1_angle>
+      <Axis_2_angle>-163.68</Axis_2_angle>
+      <Axis_3_angle>-89.88</Axis_3_angle>
+      <Axis_4_angle>0</Axis_4_angle>
+      <Axis_5_angle>-0.06</Axis_5_angle>
+    </AxisAngles>
+    <IO>-1</IO>
+  </Mission_1>
 </Missions>

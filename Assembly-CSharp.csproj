@@ -99,6 +99,7 @@
     <None Include="Assets\StreamingAssets\Boxian.xml" />
     <None Include="Assets\Shaders\Chapter8-AlphaBlend.shader" />
     <None Include="Assets\StreamingAssets\backup1012\Boxian.xml" />
+    <None Include="Assets\StreamingAssets\jianxian.xml" />
     <None Include="Assets\StreamingAssets\backup1012\ningluoshuan.xml" />
     <None Include="Assets\StreamingAssets\jiaxian.xml" />
     <None Include="Assets\UR10\Scripts\URSDK\RTDEConfig.xml" />

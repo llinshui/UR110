@@ -13,9 +13,13 @@ public class ControlUI : MonoBehaviour
     GameObject[] controlRobots = new GameObject[3];//7.2添加观察臂
     GameObject[] ChoseModes = new GameObject[3];
     GameObject activeMode,activeRobot,activeAA;
+
+    public List<Button> buttons = new List<Button>();//创建了一个按钮列表 
+    Color normalc = new Color((255 / 255f), (255 / 255f), (255 / 255f), (122/255f));
     // Start is called before the first frame update
     void Start()
     {
+
         robot = this.transform.Find("机械臂选择").gameObject;
         mode = GameObject.Find("模式选择");
         controlModes[0] = this.transform.Find("离线任务-主").gameObject;
@@ -31,12 +35,27 @@ public class ControlUI : MonoBehaviour
         activeRobot = null;
         activeAA = null;
         Init();
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        Buttonscolor();
+    }
+    public void Buttonscolor()
+    {
+        ColorBlock cb = new ColorBlock();
+        cb.normalColor = normalc;
+        cb.highlightedColor = normalc;
+        cb.pressedColor = normalc;
+        cb.disabledColor = normalc;
+        cb.selectedColor = normalc;
+        cb.colorMultiplier = 1;
+        foreach (Button item in buttons)
+        { 
+            item.colors = cb;
+        }
     }
     public void RobotChoose(int i)
     {
